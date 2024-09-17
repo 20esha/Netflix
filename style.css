@@ -62,6 +62,8 @@ nav button:hover {
     transform: scale(1.05);
 }
 
+
+
 .hero {
     font-family: 'Martel Sans', sans-serif;
     height: calc(100% - 100px);
@@ -151,6 +153,44 @@ nav button:hover {
     background-color: rgba(23, 23, 23, 0.7);
     border: 1px solid rgba(246, 238, 238, 0.5);
 }
+
+/* More specific selectors for buttons */
+nav button.btn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid white;
+    background-color: rgba(248, 243, 243, 0.1);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Red button styling for "Sign In" */
+nav button.btn-red-sm {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover effects */
+nav button.btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    transform: scale(1.05);
+}
+
+nav button.btn-red-sm:hover {
+    background-color: #e50914;
+    box-shadow: 0 6px 12px rgba(255, 0, 0, 0.4);
+    transform: scale(1.05);
+}
+
 
 .first {
     display: flex;
